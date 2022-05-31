@@ -28,8 +28,7 @@ public class SQLConstants {
             SQLPlaceholders.DB_SCHEMA_COLUMN_NAME_PARENT_APP_ID + ";, :" +
             SQLPlaceholders.DB_SCHEMA_COLUMN_NAME_PARENT_TENANT_ID + ";, :" +
             SQLPlaceholders.DB_SCHEMA_COLUMN_NAME_SHARED_APP_ID + ";, :" +
-            SQLPlaceholders.DB_SCHEMA_COLUMN_NAME_SHARED_TENANT_ID + ";, :" +
-            SQLPlaceholders.DB_SCHEMA_COLUMN_NAME_USERNAME + ";);";
+            SQLPlaceholders.DB_SCHEMA_COLUMN_NAME_SHARED_TENANT_ID + ";);";
 
     public static final String GET_SHARED_APP_ID = "SELECT SHARED_APP_ID FROM SP_SHARED_APP WHERE " +
             "PARENT_TENANT_ID = :" + SQLPlaceholders.DB_SCHEMA_COLUMN_NAME_PARENT_TENANT_ID + "; AND " +
